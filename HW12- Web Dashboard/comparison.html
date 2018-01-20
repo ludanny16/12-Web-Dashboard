@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <title>Latitude Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <style>
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 50px;
+        background-color: #f5f5f5;
+      }
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+          margin-right: 20px;
+      }
+        </style>
+
+  </head>
+
+  <body>
+    
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="background-color: darkcyan" href="index.html"><font color="white"><b>Latitude</b></font></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="Max_Temp.html">Max Temperature</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Wind_Speed.html">Wind Speed</a></li>
+                  </ul>
+              </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li class="active"><a href="Data.html">Data <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<h2 class="text-info">Data Comparison: Latitude vs X</h2><hr>
+<p>Click any plot to get an in-depth analysis</p><br>
+<div class="row">
+  <div class="col-xs-12 col-md-6 col-lg-6">
+    <div class="thumbnail">
+      <a href="Fig1.png" target="_blank">
+        <img src="Fig1.png" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6 col-lg-6">
+    <div class="thumbnail">
+      <a href="Fig2.png" target="_blank">
+        <img src="Fig2.png" alt="Nature" style="width:100%">
+      </a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-6">
+        <div class="thumbnail">
+          <a href="Fig3.png" target="_blank">
+            <img src="Fig3.png" alt="Nature" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="thumbnail">
+            <a href="Fig4.png" target="_blank">
+              <img src="Fig4.png" alt="Nature" style="width:100%">
+            </a>
+          </div>
+  </div>
+
+  
+    </body>
+   </html> 
